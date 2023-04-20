@@ -1,7 +1,7 @@
 {
   "name": "dnfx-hurricane-blocks",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
   "exports": {
     ".": {
@@ -22,7 +22,8 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "publish": "npm publish"
   },
   "peerDependencies": {
     "react": "^18.2.0",

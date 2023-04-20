@@ -1,0 +1,14 @@
+Notes
+---------------------
+
+1. To link to another project on the same machine use:
+    % yarn build
+    % yarn link
+
+2. After updating the component library, to sync the changes with another project already 
+   linked (see note 1 above) simply just:
+   % yarn build
+
+3. To publish to npmjs.org use:
+    % yarn publish
+

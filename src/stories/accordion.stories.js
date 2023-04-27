@@ -2,7 +2,8 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "..
 
 const meta = {
     title: "UI Blocks/Accordion",
-    component: Accordion,
+    component:
+        Accordion,
     tags: ["docsPage"],
     argTypes: {
         title: {
